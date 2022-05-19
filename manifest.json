@@ -1,0 +1,21 @@
+{
+  "name": "Brave Search",
+  "description": "Type 'br' and a space with the term to search with Brave Search Engine. *Not affiliated with Brave Search*",
+  "author": "Jishan Shaikh",
+  "version": "1.0.1",
+  "homepage_url": "https://github.com/jishanshaikh4/brave-search",
+  "default_locale": "en",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "omnibox": { "keyword" : "br" },
+  "action": {
+    "default_icon": {
+      "64": "search-64-color.png"
+      }
+  },
+  "icons": {
+    "64": "search-64-color.png"
+  }
+}
