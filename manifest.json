@@ -9,11 +9,13 @@
   "background": {
     "service_worker": "background.js"
   },
-  "omnibox": { "keyword" : "br" },
+  "omnibox": {
+    "keyword": "br"
+  },
   "action": {
     "default_icon": {
       "64": "search-64-color.png"
-      }
+    }
   },
   "icons": {
     "64": "search-64-color.png"
